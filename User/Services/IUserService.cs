@@ -1,6 +1,6 @@
-﻿using User.Model;
+﻿using WebUser.Model;
 
-namespace User.Services
+namespace WebUser.Services
 {
     public interface IUserService
     {

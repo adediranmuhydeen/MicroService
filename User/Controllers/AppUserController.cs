@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using User.Model;
-using User.Services;
+using WebUser.Model;
+using WebUser.Services;
 
-namespace User.Controllers
+namespace WebUser.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class AppUserController : ControllerBase
     {
         private readonly IUserService _service;
 
-        public UserController(IUserService service)
+        public AppUserController(IUserService service)
         {
             _service = service;
         }
@@ -23,7 +23,7 @@ namespace User.Controllers
             return Ok(users);
         }
 
-        [HttpGet]
+        [HttpGet("/id")]
         public IActionResult Get(int id)
         {
             var user = _service.GetUserById(id);

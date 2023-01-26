@@ -1,4 +1,4 @@
-﻿namespace User.Model
+﻿namespace WebUser.Model
 {
     public class AppUser
     {

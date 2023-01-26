@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "Jt8AYM29TI6eV58LdmWI5y6W4JWPCKtOC9TXc0E8nus=",
-  "Source": "User",
-  "BasePath": "_content/User",
+  "Hash": "GM4SiJ5ZBh6YHugwZmAun0MCiQPMlcOh6FmiENivh3c=",
+  "Source": "WebUser",
+  "BasePath": "_content/WebUser",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

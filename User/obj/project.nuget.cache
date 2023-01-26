@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vq/QKIGVR8RxdBNlmdAeaiDmRa3iWA2D7Q0mVdDMECt2X3uNpfBmTOfv0Ib8n/koqfqEOX08i5y8dyxHMv1oJg==",
+  "dgSpecHash": "9YJxySpfFh4Lwq7xm5CoclhBCxVW5ZXwOb34/jRMFAdB7j2vsWYDQMljVlqGp9f5QnWh26PnuQdupA+IFhnTmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\User.csproj",
+  "projectFilePath": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\WebUser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Decagon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Decagon\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using User.Data;
-using User.Services;
+using WebUser.Data;
+using WebUser.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +11,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
 builder.Services.AddScoped<IUserService, UserService>();
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

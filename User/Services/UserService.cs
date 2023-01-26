@@ -1,7 +1,7 @@
-﻿using User.Data;
-using User.Model;
+﻿using WebUser.Data;
+using WebUser.Model;
 
-namespace User.Services
+namespace WebUser.Services
 {
     public class UserService : IUserService
     {

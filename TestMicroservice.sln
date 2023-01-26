@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "CatalogSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{2AAA52CD-018A-45C3-B32A-230FE1F0C4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "User\User.csproj", "{D741FFBB-A825-4EDD-8245-FD585BC94E94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUser", "User\WebUser.csproj", "{D741FFBB-A825-4EDD-8245-FD585BC94E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

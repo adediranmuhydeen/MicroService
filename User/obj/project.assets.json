@@ -2228,9 +2228,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\User.csproj",
-      "projectName": "User",
-      "projectPath": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\User.csproj",
+      "projectUniqueName": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\WebUser.csproj",
+      "projectName": "WebUser",
+      "projectPath": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\WebUser.csproj",
       "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Decagon\\OneDrive\\Documents\\.Net\\TestMicroservice\\User\\obj\\",
       "projectStyle": "PackageReference",

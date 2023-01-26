@@ -4,15 +4,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using User.Data;
+using WebUser.Data;
 
 #nullable disable
 
-namespace User.Migrations
+namespace WebUser.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230126071701_iit")]
-    partial class iit
+    [Migration("20230126171855_sec")]
+    partial class sec
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace User.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("User.Model.AppUser", b =>
+            modelBuilder.Entity("WebUser.Model.AppUser", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

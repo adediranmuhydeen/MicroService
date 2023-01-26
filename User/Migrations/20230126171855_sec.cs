@@ -2,9 +2,9 @@
 
 #nullable disable
 
-namespace User.Migrations
+namespace WebUser.Migrations
 {
-    public partial class iit : Migration
+    public partial class sec : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

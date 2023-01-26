@@ -6,7 +6,7 @@
       "applicationUrl": "http://localhost:9431",
       "sslPort": 44317
     }
-  },
+  }
   "profiles": {
     "APIGateway": {
       "commandName": "Project",
